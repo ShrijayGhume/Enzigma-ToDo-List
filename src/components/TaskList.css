@@ -1,0 +1,121 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #302e2e;
+  background: #52616B;
+  border-radius: 15px;
+}
+.heading{
+  color: #f5f5f7;
+}
+
+.searchButton{
+  padding-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+  
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #52616B;
+  color: #f5f5f7;
+}
+
+tr:hover {
+  background-color: #e8e8e8;
+}
+
+button {
+  background-color: #2C3333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.delete{
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #cc0a0a;
+}
+
+div h1{
+  text-align: center;
+}
+
+.search-bar {
+  border-radius: 8px;
+  border-width: 4px;
+  height: 45px;
+
+}
+
+.add-task-button {
+  background-color: #2C3333; 
+  color: white; 
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
+  margin-right: 10px;
+  margin-left: 20px;
+  height: fit-content;
+  
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+.refresh-button {
+  background-color: #17a2b8; 
+  color: white; 
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.refresh-button:hover {
+  background-color: #138496; 
+}
+
+
+
+.Tab:hover{
+  background-color: #83929c;
+}
+.Tas{
+  background-color: #C9D6DF;
+}
+.Body {
+  background-color: #f4d9b1;
+}
+
+.totalTask{
+  font-weight: bold;
+}

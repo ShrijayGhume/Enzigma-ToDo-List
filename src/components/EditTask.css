@@ -1,0 +1,51 @@
+.edit-task-container {
+    max-width: 500px; /* Set a max-width for the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    background-color: #f9f9f9; /* Light background */
+  }
+  
+  .edit-task-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  label {
+    margin-top: 10px; /* Space above labels */
+    font-weight: bold; /* Bold text */
+  }
+  
+  select, input[type="date"], textarea {
+    padding: 10px; /* Add padding */
+    margin-top: 5px; /* Space above inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+  }
+  
+  textarea {
+    resize: none; /* Prevent resizing */
+    height: 80px; /* Set a height for textarea */
+  }
+  
+  .submit-button {
+    margin-top: 15px; /* Space above button */
+    padding: 10px; /* Add padding */
+    background-color: #2C3333; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .error-message {
+    color: red; /* Error text color */
+    margin-bottom: 10px; /* Space below error message */
+  }
+  
